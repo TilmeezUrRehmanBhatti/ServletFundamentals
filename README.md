@@ -68,3 +68,30 @@ _From GET method calls Servlet doGet() method_
 
 **Step 2: Reading From Data with Servlet**
 <img src="readMeImg/img_5.png" width = 700>
+
+**Sending Data with GET method**  
+
+<img src="readMeImg/img_6.png" width=600 />
+
++ Form data is added to end of URL as name/value pairs
+  + theUrl**?**field1=value1**&**field2=value2...
+
+**Sending Data with POST method**
+
+<img src="readMeImg/img_7.png" width="600"/>
+
++ Form data is passed in the body of HTTP request message
+<img src="readMeImg/img_8.png" width=600 />
+
+**Which one POST/GET ??**
+
+_GET_
++ Good for debugging
++ Bookmark or email URL
++ Limitations on data length
+
+_POST_
++ Can't bookmark or email URL
++ No limitations on data length
++ Can also send binary data
+

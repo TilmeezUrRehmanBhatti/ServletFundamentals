@@ -9,8 +9,7 @@
 ## Hello World Servlet - Overview
 
 ![](readMeImg/img.png)
-
-![img.png](img.png)
+![](readMeImg/img_1.png)
 
 ## Comparing Servlets and JSP - What's the Difference 
 
@@ -40,3 +39,32 @@ _Servlets_
   + Servlet does the business logic
   + JSP handles the presentation view
 + Model-View-Controller (MVC) Design Pattern
+
+## Reading HTML Form Data with Servlets - Overview
+
+**HTTP Request/Response**
+<img src="readMeImg/img_3.png" width=500 />
+
+**Step 1: Buliding HTML Form**
+```HTML
+<form action="StudentServlet" method="get">
+
+    First Name: <input type="text" name="firstName" />
+
+    <br/><br/>
+
+    Last name: <input type="text" name="lastName" />
+
+    <br/><br/>
+
+    <input type="submit" value="Submit">
+
+</form>
+```
+
+_From GET method calls Servlet doGet() method_  
+<img src="readMeImg/img_4.png" width= 600 />
+
+
+**Step 2: Reading From Data with Servlet**
+<img src="readMeImg/img_5.png" width = 700>

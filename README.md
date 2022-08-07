@@ -1,5 +1,7 @@
 # Server Fundamentals
 
+[Click here to see Example done in this exercise]( https://servletjsp.herokuapp.com/)
+
 **What Are Servlets?**
 + Java class that is processed on the server
 + Java class generates HTML that is returned to browser

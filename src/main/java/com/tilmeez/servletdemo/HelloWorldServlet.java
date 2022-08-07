@@ -23,7 +23,7 @@ public class HelloWorldServlet extends HttpServlet {
         out.println("<h2>Hello World</h2>");
         out.println("<hr>");
         out.println("Time on the server is:" + new java.util.Date());
-        
+        out.println("<p><a href=\"index.html\">Back to list</a></p>");
         out.println("</body></html>");
     }
 

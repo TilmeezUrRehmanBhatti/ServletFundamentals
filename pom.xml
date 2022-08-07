@@ -45,6 +45,19 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>
             </plugin>
+            <plugin>
+                <groupId>com.heroku.sdk</groupId>
+                <artifactId>heroku-maven-plugin</artifactId>
+                <version>3.0.3</version>
+                <configuration>
+                    <buildpacks>
+                        <buildpack>heroku/jvm</buildpack>
+                    </buildpacks>
+                    <processTypes>
+                        <web>java $JAVA_OPTS -cp 'target/dependency/*' webapp.runner.launch.Main target/*.war --enable-naming --port $PORT</web>
+                    </processTypes>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 </project>

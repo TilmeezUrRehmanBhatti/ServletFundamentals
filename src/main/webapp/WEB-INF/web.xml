@@ -3,6 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <display-name>Servlet JSP demo</display-name>
+
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
@@ -14,6 +16,10 @@
         <servlet-name>index</servlet-name>
         <url-pattern>*.html</url-pattern>
     </servlet-mapping>
+    <context-param>
+        <param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
+        <param-value>resources.application</param-value>
+    </context-param>
     <context-param>
         <param-name>max-shopping-cart-size</param-name>
         <param-value>99</param-value>

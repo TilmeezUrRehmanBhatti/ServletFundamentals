@@ -8,7 +8,8 @@
 + Can read HTML from data, use cookies and sessions etc...
 + At a high-level, similar functionality to JSPs
 
-## [Hello World Servlet - Overview] (https://servletjsp.herokuapp.com/HelloWorldServlet)
+## Hello World Servlet - Overview 
+[link](https://servletjsp.herokuapp.com/HelloWorldServlet)
 
 ![](readMeImg/img.png)
 ![](readMeImg/img_1.png)
@@ -42,7 +43,8 @@ _Servlets_
   + JSP handles the presentation view
 + Model-View-Controller (MVC) Design Pattern
 
-## [Reading HTML Form Data with Servlets - Overview] (https://servletjsp.herokuapp.com/student-form.html)
+## Reading HTML Form Data with Servlets - Overview     
+[link](https://servletjsp.herokuapp.com/student-form.html)
 
 **HTTP Request/Response**
 <img src="readMeImg/img_3.png" width=500 />
@@ -127,7 +129,9 @@ _POST_
 <img src="readMeImg/img_12.png" width=600/>
 
 
-## [Student Table Demo] (https://servletjsp.herokuapp.com/MvcDemoServletTwo)
+## Student Table Demo   
+[link](https://servletjsp.herokuapp.com/MvcDemoServletTwo)
+
 **TO Do List**
 + Create **Student** class
 + Create **StudentDataUtil** class+

@@ -54,6 +54,7 @@
                         <buildpack>heroku/jvm</buildpack>
                     </buildpacks>
                     <processTypes>
+
                         <web>java $JAVA_OPTS -cp 'target/dependency/*' webapp.runner.launch.Main target/*.war --enable-naming --port $PORT</web>
                     </processTypes>
                 </configuration>
